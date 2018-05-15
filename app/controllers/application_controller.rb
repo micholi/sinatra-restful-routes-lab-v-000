@@ -13,15 +13,15 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/' do
-    
+
   end
 
   patch '/' do
-    
+
   end
 
   get '/' do
-  
+
   end
 
   delete '/' do
