@@ -12,4 +12,8 @@ class ApplicationController < Sinatra::Base
 
   end
 
+  post '/' do
+    
+  end
+
 end
