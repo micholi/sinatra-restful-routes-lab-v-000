@@ -4,6 +4,12 @@
     <title>Recipe Entry</title>
   </head>
   <body>
-
+    <h3>Enter Your Recipe Below:</h3>
+      <form action="/recipes" method="post">
+        <p>Recipe Name: <input type="text" id="name" name="name"></p>
+        <p>Ingredients: <input type="text" id="ingredients" name="ingredients"></p>
+        <p>Cook Time: <input type="text" id="time" name="time"></p>
+        <input type="submit" id="submit">
+      </form>
   </body>
 </html>
