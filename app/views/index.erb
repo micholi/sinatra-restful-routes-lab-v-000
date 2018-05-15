@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>All Recipes</title>
   </head>
   <body>
+    <h3>Saved Recipes</h3>
+    <p><% @recipes.each do |recipe| %></p>
+    <p><%= recipe.name %><br></p>
+    <p><%= recipe.ingredients %><br></p>
+    <p><%= recipe.cook_time %><br></p>
+    <p><% end %>
   </body>
 </html>
