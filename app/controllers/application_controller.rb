@@ -16,4 +16,16 @@ class ApplicationController < Sinatra::Base
     
   end
 
+  patch '/' do
+    
+  end
+
+  get '/' do
+  
+  end
+
+  delete '/' do
+    
+  end
+
 end
