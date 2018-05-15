@@ -5,10 +5,11 @@
   </head>
   <body>
     <h3>Edit Your Recipe</h3>
-    <form action="/posts/<%= @post.id %>" method="post">
+    <form action="/recipes/<%= @recipe.id %>" method="post">
       <input id="hidden" type="hidden" name="_method" value="patch">
-      Name: <input type="text" value="<%= @post.name %>" name="name">
-      Content: <input type="text" value="<%= @post.content %>" name="content">
+      <h6><input type="text" value="<%= @recipe.name %>" name="name"></h6>
+      <p>Ingrdients: <input type="text" value="<%= @recipe.ingredients %>" name="ingredients"></p>
+      <p>Cooking Time: <input type="text" value="<%= @recipe.cook_time %>" name="cook_time"></p>
       <input type="submit" value="submit">
     </form>
   </body>
