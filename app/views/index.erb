@@ -5,8 +5,8 @@
   </head>
   <body>
     <h3>Saved Recipes</h3>
-    <p><% @recipes.each do |recipe| %></p>
+    <% @recipes.each do |recipe| %>
     <p><%= recipe.name %><br></p>
-    <p><% end %>
+    <% end %>
   </body>
 </html>
