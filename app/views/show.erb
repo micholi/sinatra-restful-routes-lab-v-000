@@ -5,8 +5,9 @@
   </head>
   <body>
     <h3>Your Recipe Has Been Posted</h3>
-    <p><%= @post.name %></p>
-    <p><%= @post.content %></p>
+    <p><%= @recipe.name %></p>
+    <p><%= @recipe.ingredients %></p>
+    <p><%= @recipe.cook_time %></p>
     <form method="post" action="/posts/<%= @post.id %>/delete">
       <input id="hidden" type="hidden" name="_method" value="delete">
       <input type="submit" id="delete" value="delete">
