@@ -17,19 +17,19 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/recipes/:id/edit' do
-    
-  end
-
-  patch '/' do
 
   end
 
-  get '/' do
+  patch '/recipes/:id' do
 
   end
 
-  delete '/' do
-    
+#  get '/' do
+
+#  end
+
+  delete '/recipes/:id/delete' do
+
   end
 
 end
