@@ -13,7 +13,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/recipes' do
-
+    @recipes = Recipe.all
   end
 
   get '/recipes/:id/edit' do
